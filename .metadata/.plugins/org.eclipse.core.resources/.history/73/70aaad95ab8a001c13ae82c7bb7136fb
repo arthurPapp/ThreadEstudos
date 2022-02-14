@@ -1,0 +1,11 @@
+package br.com.alura.cliente;
+
+public class ClienteTarefas {
+	
+	public static void main(String[] args) {
+		Socket socket = new Socket("localhost", 12345);
+        System.out.println("Conexão Estabelecida");
+        socket.close();
+	}
+
+}
